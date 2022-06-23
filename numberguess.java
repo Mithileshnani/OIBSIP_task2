@@ -10,7 +10,6 @@ public class numberguess{
         System.out.println("Hello Folks I welcome you all to the Number guessing game are you excited to play??\nHere are the rules to be followed to play the game");
         System.out.println("This game consists of atmost 3 levels\n Level 1 has 5 chances\n Level 2 has 3 chances\n Level 3 has 2 chances");
         System.out.println("Completing all the  Levels make you the Winner ");
-       // int level1=5,levels=1;;
        while(levels<4)
        {  count=0;
         Specialnum=randomnumber.nextInt(upperlimit-1);
@@ -66,7 +65,7 @@ public class numberguess{
        { totalscore=totalscore+score; 
         System.out.printf("Bravo You are the Winner\nTotal Score is %d\n",totalscore);
        } 
-      //  System.out.printf("You have scored %d points\n",levels*10);
+   
          break;
         } 
       } }
